@@ -1,0 +1,14 @@
+.home--container{
+    background: #393E46;
+    height: auto;
+    width: 100vw;
+}
+
+.home--bg{
+    background: #24D2FE;
+    border-radius: 50%;
+    margin-top: -50rem;
+    margin-left: -10rem;
+    width: 100rem;
+    height: 100rem;
+}
