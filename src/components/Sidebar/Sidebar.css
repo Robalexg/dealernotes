@@ -1,0 +1,47 @@
+.nav--container{
+    display: flex;
+    flex-flow: column nowrap;
+    background: #393E46;
+    height: 100vh;
+    width: 12.5rem;
+    align-items: center;
+    color: white;
+    /* box-shadow: 0 2rem 2rem rgba(0, 0, 0, .5); */
+}
+
+.nav--logo{
+    width: 20rem;
+    margin-bottom: -3rem;
+    margin-top: -5rem;
+}
+
+.nav--employeeid{
+    font-size: 1rem;
+}
+
+.nav--hr{
+    width: 80%;
+    height: 2px;
+    background: #00F2FE;
+    margin-top: 1rem;
+}
+
+.nav--icons{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+    width: 100%;
+}
+.nav--icons div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav--icons div:hover{
+    border-right: 5px solid #24D2FE;
+}
+

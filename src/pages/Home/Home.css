@@ -2,13 +2,46 @@
     background: #393E46;
     height: auto;
     width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    background-image: url(../../../public/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
-.home--bg{
-    background: #24D2FE;
-    border-radius: 50%;
-    margin-top: -50rem;
-    margin-left: -10rem;
-    width: 100rem;
-    height: 100rem;
+.home--logo{
+    width: 25rem;
+}
+
+.home--formcontainer{
+    background: #393E46;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: .5rem;
+    margin-top: -5rem;
+    width: 20rem;
+    padding: 5rem 1rem 1rem 1rem;
+}
+
+
+.home--formcontainer input{
+    margin-bottom: 4rem;
+    width: 100%;
+    padding: .8rem;
+    border-radius: .3rem;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.home--formcontainer h1{
+    margin-bottom: .8rem;
 }
