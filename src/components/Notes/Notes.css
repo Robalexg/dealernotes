@@ -1,0 +1,59 @@
+.notes--container{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    height: 49rem;
+}
+
+.notes--container form{
+    width: 100%;
+}
+
+
+.notes--container input{
+    align-self: start;
+    margin-left: 20%;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 2rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+.notes--container input:focus{
+    outline: none;
+}
+
+
+.note--note{
+    width: 60%;
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.note--notecontainer{
+    overflow: scroll;
+    width: 60%;
+}
+
+
+.notes--bullet{
+    height: .7rem;
+    width: .7rem;
+    border-radius: 50%;
+    background: black;
+    margin-right: 2rem;
+}
+
+.note--trash{
+    margin-left: auto;
+    color: red;
+    opacity: 1;
+}
+
+.note--trash:hover{
+    opacity: .5;
+}

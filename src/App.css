@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 html{
   font-size: 62.5%;
 }
@@ -20,4 +21,10 @@ body{
 
 .App{
   display: flex;
+}
+
+.hr{
+  width: 60%;
+  height: 2px;
+  background: #00F2FE;
 }

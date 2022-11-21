@@ -1,0 +1,113 @@
+.add--container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    background: #EEEEEE;
+}
+
+.add--container button{ 
+    display: none; 
+}
+
+.add--container label{ 
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #393E46;
+}
+
+.add--container input,select{
+    width: 20rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .25);
+    outline-color: #00F2FE;
+}
+
+.add--notecontainer{
+    width: 60%;
+    height: 60%;
+    background: white;
+    border-radius: 1rem ;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .25);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.add--notecontainer form{
+    width: 60%;
+}
+
+
+
+
+#add--noteinput input{
+  align-self: start;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 2rem;
+  border: none;
+  margin-top: 1rem;
+  outline: none;
+  padding:1.5rem 1.5rem 0 0;
+  box-shadow: none;
+  text-indent: 0;
+
+}
+.add--form{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    row-gap: 1rem;
+}
+
+.add--hr{
+    width: 60%;
+    height: 2px;
+    background: #00F2FE;
+}
+
+.add--notes{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: center;
+}
+
+.add--note{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    font-size: 2rem;
+}
+
+.add--bullet{
+    height: .7rem;
+    width: .7rem;
+    border-radius: 50%;
+    background: black;
+    margin-right: 1rem;
+}
+
+#add--submit{
+    display: block ;
+    padding: 1rem 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+    background: #00F2FE;
+    border: none;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+}
+
+#add--submit:hover{
+    background: #00D2DC;
+    box-shadow: none;
+
+}
