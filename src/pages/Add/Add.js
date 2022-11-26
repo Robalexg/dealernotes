@@ -1,5 +1,5 @@
 import './Add.css'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import uuid from 'react-uuid'
 
 const Add = () => {
@@ -14,11 +14,15 @@ const Add = () => {
         id: uuid()
     })
 
+    useEffect(() => {
+        localStorage.setItem('allro',JSON.stringify(all))
+    },[all])
+
 
     const handleSubmit = (e) => {
         e.preventDefault()
         const name = e.target.name
-        if(name == 'note' && note){
+        if((name === 'note') && note){
             setInv(prev =>({
                 ...prev,
                 notes: [...prev.notes,{val:note}]
@@ -26,11 +30,17 @@ const Add = () => {
             setNote('')
         }
         else if(name === 'submit'){
-            
-
+            setAll(prev => ([...prev,inv]))
+            setInv({
+                invNum : '',
+                name: '',
+                num: '',
+                status: 'default',
+                notes:[],
+                id: uuid()
+            })
         }
     }
-
 
     const handleChange = (e) => {
         const name = e.target.name

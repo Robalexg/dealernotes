@@ -1,4 +1,96 @@
+
 .home--container{
+    padding: 0 6.4rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: repeat(2,min-content),auto;
+    column-gap: 2rem;
+
+}
+
+#home--logo{
+    width: 16.7rem;
+    margin-top: 5.5rem;
+}
+
+#home--title{
+    font-size: 6.4rem;
+    line-height: 8.2rem;
+    grid-row: 2/3;
+    margin-top: 10.8rem;
+
+}
+
+#home--subtitle{
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-top: 2.5rem;
+
+}
+
+.home--formcontainer{
+    background:#277BC0;
+    grid-row: 1/5;
+    grid-column: 2/3;
+    border-radius:  0 0 10rem 10rem;
+    padding: 6.5rem;
+    background-image: url(../../../public/images/formbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#home--form{
+    display: flex;
+    flex-flow: column nowrap;
+    background: white;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: 0px .4rem .4rem rgba(0, 0, 0, 0.25);
+    padding: 3.4rem 6rem;
+}
+
+#home--form > h1{
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+#home--form input {
+    padding: 1.9rem;
+    border-radius: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    border: 1px solid #BDBDBD;
+    margin-top: 3.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#home--form input::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+}
+
+#home--form button{
+    margin-top: 6rem;
+    border: none;
+    background:#277BC0;
+    width: 50%;
+    align-self: center;
+    font-family: 'DM Sans', sans-serif;
+    padding: 1rem 2rem;
+    font-size: 2rem; 
+    color:white;
+    border-radius: 1rem;
+}
+
+#home--form button:hover{
+    opacity: .8;
+}
+
+
+
+
+
+
+/* .home--container{
     background: #393E46;
     height: auto;
     width: 100vw;
@@ -44,4 +136,4 @@
 
 .home--formcontainer h1{
     margin-bottom: .8rem;
-}
+} */

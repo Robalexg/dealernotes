@@ -15,16 +15,18 @@ input::-webkit-inner-spin-button {
 }
 
 
+
+
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .App{
-  display: flex;
+  height: 100vh;
 }
-
+/* 
 .hr{
   width: 60%;
   height: 2px;
   background: #00F2FE;
-}
+} */

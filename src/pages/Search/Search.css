@@ -1,0 +1,94 @@
+.search--container{
+    width: 100%;
+    background: #eeeeee;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.search--recent{
+    width: 80%;
+    height: 100%;
+    background: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 3rem;
+    box-shadow: 0px .4rem .4rem rgba(0, 0, 0, 0.25);
+}
+
+.search--ro{
+    font-size: 3rem;
+    margin-top: 1rem;
+
+}
+.search--ro:hover{
+    color:#00F2FE;
+    cursor: pointer;
+}
+
+#search--input{
+    width: 30%;
+    padding: 1rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    border: none;
+    box-shadow: 0px .4rem .4rem rgba(0, 0, 0, 0.25);
+    border-radius: .5rem;
+}
+
+.search--modal{
+    margin-bottom: auto;
+    background: white;
+    height: 40%;
+    width: 60%;
+    top: 20%;
+    left:25%;
+    position: fixed;
+    box-shadow: 0px .4rem .4rem rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 1rem;
+}
+
+
+.search--bullet{
+    height: .7rem;
+    width: .7rem;
+    border-radius: 50%;
+    background: black;
+    margin-right: 1rem;
+}
+
+.search--note{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.search--notecontainer h1{
+    font-size: 4rem;
+}
+
+#search--close{
+    display: block ;
+    padding: 1rem 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+    background: #00F2FE;
+    border: none;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+}
+
+#search--close:hover{
+    background: #00D2DC;
+    box-shadow: none;
+    cursor: pointer;
+}

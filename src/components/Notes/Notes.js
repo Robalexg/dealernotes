@@ -63,6 +63,7 @@ const Notes = () => {
                                     className='note--trash'
                                     src="../images/trashIcon.png"
                                     onClick={handleDelete}
+                                    alt='trash'
                                 />
                             </div>
                         )
