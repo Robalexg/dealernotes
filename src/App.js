@@ -4,16 +4,21 @@ import Dash from './pages/Dash/Dash';
 import Add from './pages/Add/Add';
 import Search from './pages/Search/Search';
 import './App.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      
-      {/* <Sidebar/> */}
-      {/* <Dash/> */}
-      {/* <Add/> */}
-      {/* <Search/> */}
+      <BrowserRouter>
+        <Routes>
+          <Route index path='/' element={<Home/>}/>
+          <Route path='profile' element={<Dash/>}/>
+            {/* <Sidebar/> */}
+            {/* <Dash/> */}
+            {/* <Add/> */}
+            {/* <Search/> */}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
